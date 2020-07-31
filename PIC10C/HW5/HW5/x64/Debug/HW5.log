@@ -1,0 +1,3 @@
+﻿  Source.cpp
+d:\school\2nd year\spring qt\pic10c\hw5\hw5\source.cpp(20): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+  HW5.vcxproj -> D:\School\2nd year\Spring qt\PIC10C\HW5\x64\Debug\HW5.exe

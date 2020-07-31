@@ -1,0 +1,96 @@
+﻿  Source.cpp
+d:\school\2nd year\spring qt\pic10c\hw4\hw4\source.cpp(39): error C2678: binary '==': no operator found which takes a left-hand operand of type 'TComp' (or there is no acceptable conversion)
+          with
+          [
+              TComp=std::less<int>
+          ]
+  d:\vs\vc\tools\msvc\14.16.27023\include\exception(321): note: could be 'bool std::operator ==(const std::exception_ptr &,const std::exception_ptr &) noexcept' [found using argument-dependent lookup]
+  d:\vs\vc\tools\msvc\14.16.27023\include\exception(326): note: or       'bool std::operator ==(std::nullptr_t,const std::exception_ptr &) noexcept' [found using argument-dependent lookup]
+  d:\vs\vc\tools\msvc\14.16.27023\include\exception(331): note: or       'bool std::operator ==(const std::exception_ptr &,std::nullptr_t) noexcept' [found using argument-dependent lookup]
+  d:\vs\vc\tools\msvc\14.16.27023\include\system_error(266): note: or       'bool std::operator ==(const std::error_code &,const std::error_code &) noexcept' [found using argument-dependent lookup]
+  d:\vs\vc\tools\msvc\14.16.27023\include\system_error(272): note: or       'bool std::operator ==(const std::error_code &,const std::error_condition &) noexcept' [found using argument-dependent lookup]
+  d:\vs\vc\tools\msvc\14.16.27023\include\system_error(278): note: or       'bool std::operator ==(const std::error_condition &,const std::error_code &) noexcept' [found using argument-dependent lookup]
+  d:\vs\vc\tools\msvc\14.16.27023\include\system_error(284): note: or       'bool std::operator ==(const std::error_condition &,const std::error_condition &) noexcept' [found using argument-dependent lookup]
+  d:\school\2nd year\spring qt\pic10c\hw4\hw4\source.cpp(53): note: while trying to match the argument list '(TComp, std::less<int>)'
+          with
+          [
+              TComp=std::less<int>
+          ]
+  d:\school\2nd year\spring qt\pic10c\hw4\hw4\source.cpp(84): note: see reference to function template instantiation 'int binary_search<int,std::less<int>>(const std::vector<int,std::allocator<_Ty>> &,int,int,const T &,TComp)' being compiled
+          with
+          [
+              _Ty=int,
+              T=int,
+              TComp=std::less<int>
+          ]
+d:\school\2nd year\spring qt\pic10c\hw4\hw4\source.cpp(39): error C4984: 'if constexpr' is a C++17 language extension
+d:\school\2nd year\spring qt\pic10c\hw4\hw4\source.cpp(53): error C2088: '==': illegal for struct
+d:\school\2nd year\spring qt\pic10c\hw4\hw4\source.cpp(39): error C2131: expression did not evaluate to a constant
+  d:\school\2nd year\spring qt\pic10c\hw4\hw4\source.cpp(39): note: failure was caused by a read of a variable outside its lifetime
+  d:\school\2nd year\spring qt\pic10c\hw4\hw4\source.cpp(39): note: see usage of 'comp'
+d:\school\2nd year\spring qt\pic10c\hw4\hw4\source.cpp(39): error C2678: binary '==': no operator found which takes a left-hand operand of type 'TComp' (or there is no acceptable conversion)
+          with
+          [
+              TComp=more<double,std::less<double>>
+          ]
+  d:\vs\vc\tools\msvc\14.16.27023\include\exception(321): note: could be 'bool std::operator ==(const std::exception_ptr &,const std::exception_ptr &) noexcept' [found using argument-dependent lookup]
+  d:\vs\vc\tools\msvc\14.16.27023\include\exception(326): note: or       'bool std::operator ==(std::nullptr_t,const std::exception_ptr &) noexcept' [found using argument-dependent lookup]
+  d:\vs\vc\tools\msvc\14.16.27023\include\exception(331): note: or       'bool std::operator ==(const std::exception_ptr &,std::nullptr_t) noexcept' [found using argument-dependent lookup]
+  d:\vs\vc\tools\msvc\14.16.27023\include\system_error(266): note: or       'bool std::operator ==(const std::error_code &,const std::error_code &) noexcept' [found using argument-dependent lookup]
+  d:\vs\vc\tools\msvc\14.16.27023\include\system_error(272): note: or       'bool std::operator ==(const std::error_code &,const std::error_condition &) noexcept' [found using argument-dependent lookup]
+  d:\vs\vc\tools\msvc\14.16.27023\include\system_error(278): note: or       'bool std::operator ==(const std::error_condition &,const std::error_code &) noexcept' [found using argument-dependent lookup]
+  d:\vs\vc\tools\msvc\14.16.27023\include\system_error(284): note: or       'bool std::operator ==(const std::error_condition &,const std::error_condition &) noexcept' [found using argument-dependent lookup]
+  d:\school\2nd year\spring qt\pic10c\hw4\hw4\source.cpp(53): note: while trying to match the argument list '(TComp, std::less<T>)'
+          with
+          [
+              TComp=more<double,std::less<double>>
+          ]
+          and
+          [
+              T=double
+          ]
+  d:\school\2nd year\spring qt\pic10c\hw4\hw4\source.cpp(85): note: see reference to function template instantiation 'int binary_search<double,more<double,std::less<T>>>(const std::vector<double,std::allocator<_Ty>> &,int,int,const T &,TComp)' being compiled
+          with
+          [
+              T=double,
+              _Ty=double,
+              TComp=more<double,std::less<double>>
+          ]
+d:\school\2nd year\spring qt\pic10c\hw4\hw4\source.cpp(53): error C2446: '==': no conversion from 'std::less<T>' to 'TComp'
+          with
+          [
+              T=double
+          ]
+          and
+          [
+              TComp=more<double,std::less<double>>
+          ]
+  d:\school\2nd year\spring qt\pic10c\hw4\hw4\source.cpp(53): note: No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+d:\school\2nd year\spring qt\pic10c\hw4\hw4\source.cpp(39): error C2678: binary '==': no operator found which takes a left-hand operand of type 'TComp' (or there is no acceptable conversion)
+          with
+          [
+              TComp=std::less<std::string>
+          ]
+  d:\vs\vc\tools\msvc\14.16.27023\include\exception(321): note: could be 'bool std::operator ==(const std::exception_ptr &,const std::exception_ptr &) noexcept' [found using argument-dependent lookup]
+  d:\vs\vc\tools\msvc\14.16.27023\include\exception(326): note: or       'bool std::operator ==(std::nullptr_t,const std::exception_ptr &) noexcept' [found using argument-dependent lookup]
+  d:\vs\vc\tools\msvc\14.16.27023\include\exception(331): note: or       'bool std::operator ==(const std::exception_ptr &,std::nullptr_t) noexcept' [found using argument-dependent lookup]
+  d:\vs\vc\tools\msvc\14.16.27023\include\system_error(266): note: or       'bool std::operator ==(const std::error_code &,const std::error_code &) noexcept' [found using argument-dependent lookup]
+  d:\vs\vc\tools\msvc\14.16.27023\include\system_error(272): note: or       'bool std::operator ==(const std::error_code &,const std::error_condition &) noexcept' [found using argument-dependent lookup]
+  d:\vs\vc\tools\msvc\14.16.27023\include\system_error(278): note: or       'bool std::operator ==(const std::error_condition &,const std::error_code &) noexcept' [found using argument-dependent lookup]
+  d:\vs\vc\tools\msvc\14.16.27023\include\system_error(284): note: or       'bool std::operator ==(const std::error_condition &,const std::error_condition &) noexcept' [found using argument-dependent lookup]
+  d:\school\2nd year\spring qt\pic10c\hw4\hw4\source.cpp(53): note: while trying to match the argument list '(TComp, std::less<T>)'
+          with
+          [
+              TComp=std::less<std::string>
+          ]
+          and
+          [
+              T=std::string
+          ]
+  d:\school\2nd year\spring qt\pic10c\hw4\hw4\source.cpp(86): note: see reference to function template instantiation 'int binary_search<std::string,std::less<T>>(const std::vector<std::string,std::allocator<_Ty>> &,int,int,const T &,TComp)' being compiled
+          with
+          [
+              T=std::string,
+              _Ty=std::string,
+              TComp=std::less<std::string>
+          ]

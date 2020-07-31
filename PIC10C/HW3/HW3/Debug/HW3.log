@@ -1,0 +1,4 @@
+﻿  Source.cpp
+d:\school\2nd year\spring qt\pic10c\hw3\hw3\source.cpp(64): warning C4018: '<': signed/unsigned mismatch
+d:\school\2nd year\spring qt\pic10c\hw3\hw3\source.cpp(69): warning C4018: '<': signed/unsigned mismatch
+  HW3.vcxproj -> D:\School\2nd year\Spring qt\PIC10C\HW3\Debug\HW3.exe

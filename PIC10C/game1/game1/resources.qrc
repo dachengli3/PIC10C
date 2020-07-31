@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/sounds">
+        <file>alien-spaceship_daniel_simion.mp3</file>
+    </qresource>
+</RCC>

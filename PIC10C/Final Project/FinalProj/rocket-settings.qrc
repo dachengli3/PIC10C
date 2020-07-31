@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Settings.txt</file>
+        <file>C:/Users/dache/Downloads/rocket_left.jpg</file>
+        <file>C:/Users/dache/Downloads/rocket_right.png</file>
+        <file>C:/Users/dache/Downloads/rocket_down.png</file>
+        <file>C:/Users/dache/Downloads/rocket_Modified.png</file>
+    </qresource>
+</RCC>

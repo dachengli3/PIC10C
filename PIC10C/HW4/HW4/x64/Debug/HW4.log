@@ -1,0 +1,5 @@
+﻿  Source.cpp
+d:\school\2nd year\spring qt\pic10c\hw4\hw4\source.cpp(118): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+d:\school\2nd year\spring qt\pic10c\hw4\hw4\source.cpp(119): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+d:\school\2nd year\spring qt\pic10c\hw4\hw4\source.cpp(120): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  HW4.vcxproj -> D:\School\2nd year\Spring qt\PIC10C\HW4\x64\Debug\HW4.exe
